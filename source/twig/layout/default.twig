@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{lang}}" class="no-js">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<title>{{title}}</title>
+
+	<meta name="robots" content="all" />
+	<meta property="og:image" content="{{ogImage}}" />
+	<meta property="og:title" content="{{title}}" />
+	<meta property="og:description" content="{{ogDescription}}" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+
+	<link href="https://larson-juhl-europe-beta.sanastores.net/content/css/store?v=LQ8ukFCXealmhnQsO_qB--HTgpY0RwZTHkaj_erUfUk1&t=Default" rel="stylesheet"/>
+	<link href="https://larson-juhl-europe-beta.sanastores.net/content/css/extra/theme.css?v=637820012352130000" type="text/css" rel="stylesheet" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/style.maps.css?{{'now'|date('Y-m-d-g:ia')}}" />
+
+</head>
+<body class="{{bodyClass|default('sub-page')}}">
+{% block content %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,42 @@
+// ==========================================================================
+//   MEDIA QUERY
+// ==========================================================================
+$tablet-width: 48em;    // 768px
+$desktop-width: 60em;   // 960px
+$pixel: 0.0625em;       // 1px
+
+@mixin media-phone {
+    @media (max-width: #{$tablet-width - $pixel}) {
+        @content;
+    }
+}
+
+@mixin media-tablet-range {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - $pixel}) {
+        @content;
+    }
+}
+
+@mixin media-tablet {
+    @media (min-width: #{$tablet-width}) {
+        @content;
+    }
+}
+
+@mixin media-desktop {
+    @media (min-width: #{$desktop-width}) {
+        @content;
+    }
+}
+
+//p {
+//    font-size: 16px;
+//
+//    @include media-tablet {
+//        font-size: 18px;
+//    }
+//
+//    @include media-desktop {
+//        font-size: 20px;
+//    }
+//}

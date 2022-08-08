@@ -1,0 +1,30 @@
+// Do icon-fonts.scss nezapisovat hodnoty rucne.
+// Je generovana ze slozky font-icons, kde jsou SVG.
+
+@font-face {
+    font-family: "<%= fontName %>";
+    src: url('<%= fontPath %><%= fontName %>.eot?v=#{$uniqeid}');
+    src: url('<%= fontPath %><%= fontName %>.eot?v=#{$uniqeid}#iefix') format('eot'),
+        url('<%= fontPath %><%= fontName %>.woff2?v=#{$uniqeid}') format('woff2'),
+        url('<%= fontPath %><%= fontName %>.woff?v=#{$uniqeid}') format('woff'),
+        url('<%= fontPath %><%= fontName %>.ttf?v=#{$uniqeid}') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="<%= className %>"],
+[class*=" <%= className %>"] {
+    font-family: "<%= fontName %>"!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+<% _.each(glyphs, function(glyph) { %>.<%= className %><%= glyph.name %>:before, %<%= className %><%= glyph.name %> { content: "\<%= glyph.unicode[0].charCodeAt(0).toString(16).toUpperCase() %>" }
+<% }); %>
