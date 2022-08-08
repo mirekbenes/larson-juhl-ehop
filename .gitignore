@@ -1,0 +1,8 @@
+# PHP Storm idem
+/.idea/
+
+# compiled output
+/dist/
+
+# dependencies
+/node_modules/
