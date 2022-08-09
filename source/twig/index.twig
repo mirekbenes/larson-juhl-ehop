@@ -4,15 +4,13 @@
 {% set title = 'Rozcestník HTML šablon' %}
 {% set ogDescription = '' %}
 {% set ogImage = '' %}
+{% set bodyClass = '' %}
 
 {% block content %}
 	<div class="site">
 		{% include "partial/header.twig" %}
 
-		<div style="height: 2000px;"></div>
-
+		{% include "partial/footer.twig" %}
 	</div><!-- /site -->
-
-	{% include "partial/footer.twig" %}
 	{% include "partial/footer-scripts.twig" %}
 {% endblock %}

@@ -8,9 +8,47 @@
 
 {% block content %}
 	<div class="site">
+		{% include "partial/header.twig" %}
 
+		<div class="content">
+			<div id="flexiPage">
+				<div class="flexi-row">
+					<div class="html-wrapper fr-view">
+						<div class="strip">
+							<div class="strip__main">
+								<div class="strip__txt">
+									<p>Prohlížejte celý <strong>sortiment našich rámů</strong></p>
+								</div>
+
+								<div class="strip__cta">
+									<a href="/content/files/LARSON-JUHL_Volume3-2022_web.pdf" class="strip__btn">
+										<span class="strip__bdo">Stáhnout katalog</span>
+										<span class="strip__ico">
+											<svg height="22" viewBox="0 0 22 22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="m18.434 8.1312-1.4828-1.5994-2.8512 2.6708v-9.2026h-2.2v9.2026l-2.7984-2.6708-1.4982 1.5994 5.4428 5.1381zm5.566 13.8688h-22v-11h4.4v2.2h-2.2v6.6h17.6v-6.6h-2.2v-2.2h4.4z" fill-rule="evenodd" transform="translate(-2)"/></svg>
+										</span>
+									</a>
+								</div>
+							</div><!-- /strip__main -->
+						</div><!-- /strip -->
+					</div><!-- /html-wrapper -->
+				</div><!-- / flexi-row -->
+
+				<div class="flexi-row">
+					<div class="html-wrapper fr-view">
+						<div class="insta">
+							<h2 style="text-align: center;">Z našeho Instagramu</h2>
+							<br />
+							<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+							<div class="elfsight-app-ce557a8a-e78d-4d17-8399-2527eda2bb23">
+								<br />
+							</div>
+						</div><!-- / insta -->
+					</div><!-- /html-wrapper -->
+				</div><!-- / flexi-row -->
+			</div><!-- /flexiPage -->
+		</div><!-- /content -->
+
+		{% include "partial/footer.twig" %}
 	</div><!-- /site -->
-
-	{% include "partial/footer.twig" %}
 	{% include "partial/footer-scripts.twig" %}
 {% endblock %}

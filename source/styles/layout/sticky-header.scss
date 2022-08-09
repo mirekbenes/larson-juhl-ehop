@@ -1,0 +1,54 @@
+/* ==========================================================================
+    STICKY HEADER
+   ========================================================================== */
+header.sticky-mode {
+	background: #f3f3f3;
+	border-color: rgba(216, 216, 216, 0.6);
+
+	.top-header {
+		&:after {
+			display: none;
+		}
+	}
+
+	.search {
+		@include media-desktop {
+			width: 55%;
+		}
+	}
+}
+
+.nav-opener-wrapper,
+header.sticky-mode,
+.middle-header,
+.bottom-header {
+	border-color: rgba(216, 216, 216, 0.6);
+}
+
+header.sticky-mode .nav-list-root {
+	padding-top: 0;
+	padding-bottom: 0;
+	border-color: rgba(216, 216, 216, 0.6);
+}
+
+header.sticky-mode nav .hyp-top-lvl {
+	color: $clrPrimary;
+}
+
+header.sticky-mode .nav-is-hovered .hyp-top-lvl {
+	color: $clrPrimary;
+}
+
+header.sticky-mode .nav-item-root.hover .hyp-top-lvl {
+	color: $clrWhite;
+}
+
+header.sticky-mode .nav-item.btn-cnt {
+	a {
+		color: $clrWhite;
+	}
+}
+
+header.sticky-mode .basket .over-summary {
+	border: 0!important;
+}

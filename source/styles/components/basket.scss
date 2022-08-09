@@ -1,0 +1,39 @@
+/* ==========================================================================
+    BASKET
+   ========================================================================== */
+.basket {
+	z-index: 999;
+
+	@include media-phone {
+		border-color: rgba(216, 216, 216, 0.6);
+	}
+
+	.over-summary {
+		@include media-desktop {
+			height: 40px;
+			line-height: 40px;
+			background: #f3f3f3!important;
+			border: 1px solid #cac8d1!important;
+			border-radius: 10px;
+			box-shadow: 0!important;
+			line-height: 40px;
+		}
+
+		.hyp {
+			text-transform: none;
+		}
+	}
+}
+
+.basket-summary {
+	border: 0;
+	box-shadow: 0 0 5px 0 rgba(0,0,0, 0.3);
+
+	@include media-desktop {
+		border-radius: 10px;
+	}
+
+	.font-h4 {
+		font-size: 13px;
+	}
+}

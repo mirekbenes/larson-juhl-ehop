@@ -19,7 +19,63 @@
 	<link href="https://larson-juhl-europe-beta.sanastores.net/content/css/store?v=LQ8ukFCXealmhnQsO_qB--HTgpY0RwZTHkaj_erUfUk1&t=Default" rel="stylesheet"/>
 	<link href="https://larson-juhl-europe-beta.sanastores.net/content/css/extra/theme.css?v=637820012352130000" type="text/css" rel="stylesheet" />
 
-	<link rel="stylesheet" type="text/css" media="screen" href="./css/style.maps.css?{{'now'|date('Y-m-d-g:ia')}}" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/czstore.maps.css?{{'now'|date('Y-m-d-g:ia')}}" />
+
+	<style>
+		body .site header .nav-lvl-3 .nav-item.nav-view-more {
+			display: block !important;
+		}
+		.flex-tile-block .text-block{
+			word-break: keep-all !important;
+		}
+		.team-content-block h3.member-name {
+			word-break: keep-all!important;
+		}
+		#cookie-bar{background:#111;height:auto;line-height:24px;color:#eee;text-align:center;padding:3px 0}
+		#cookie-bar.fixed{position:fixed;top:0;left:0;width:100%}
+		#cookie-bar.fixed.bottom{bottom:0;top:auto}
+		#cookie-bar p{margin:0;padding:0}
+		#cookie-bar a{color:#fff;display:inline-block;border-radius:3px;text-decoration:none;padding:0 6px;margin-left:8px}
+		#cookie-bar .cb-enable{background:#070}
+		#cookie-bar .cb-enable:hover{background:#090}
+		#cookie-bar .cb-disable{background:#900}
+		#cookie-bar .cb-disable:hover{background:#b00}
+		#cookie-bar .cb-policy{background:#03b}
+		#cookie-bar .cb-policy:hover{background:#05d}
+		<-- a.btn-medium{display:none!important;} -->
+
+		ul.sitemap-nav > li > a {
+			display: block;
+			width:160px;
+			line-height: 1.2em;
+			font-size: 1.2em;
+			padding-bottom: 12px;
+			pointer-events: none;
+			cursor: default;
+			text-transform: uppercase;
+			color: #354552 !important;
+		}
+		ul.sitemap-nav > li  {
+			width:160px;
+		}
+		.ul-socialfooter {
+			list-style-type: none;
+			display: table-cell;
+			vertical-align: middle;
+			padding-left: 0;
+		}
+		.sitemap>span.font-h4{display:none}
+		.tbx-email-newsletter{display:none}
+		ul.newsletter-line>li>button{display:none}
+		.suggest-img{width:80px;height:80px;}
+		.suggest-img img{width:85px;height:85px;}
+
+		.hyp-volume-prices.arrow-blue {
+			font-size:1.6em !important;
+			Color:RED !important;
+		}
+	</style>
+
 
 </head>
 <body class="{{bodyClass|default('sub-page')}}">

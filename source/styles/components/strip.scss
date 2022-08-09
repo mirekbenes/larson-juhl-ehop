@@ -1,0 +1,99 @@
+/* ==========================================================================
+    STRIP
+   ========================================================================== */
+.strip {
+	margin: 25px 0;
+	padding: 20px 0;
+	background: $clrPrimary;
+	color: $clrWhite;
+
+	@include  media-tablet {
+		margin: 50px 0;
+		padding: 40px 0;
+	}
+
+	@include media-desktop {
+		padding: 58px 0;
+	}
+}
+
+.strip__main {
+	max-width: 1186px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@include media-tablet {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	@include media-desktop {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		gap: 60px;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+
+.strip__txt {
+	text-align: center;
+	font-size: 30px;
+	line-height: 1.2;
+
+	@include media-tablet {
+		font-size: 37px;
+	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.strip__cta {
+	text-align: center;
+
+	@include media-desktop-under {
+		padding-bottom: 10px;
+	}
+}
+
+.strip__btn {
+	@include transLinks;
+	display: inline-flex;
+	align-items: center;
+	gap: 0 25px;
+	padding: 10px 26px;
+	background: $clrWhite;
+	color: $clrPrimary;
+	text-decoration: none;
+	font-size: 17px;
+
+	@include media-tablet {
+		padding: 16px 32px;
+		font-size: 19px;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: $footerBg;
+		color: $clrWhite;
+
+		svg {
+			fill: $clrWhite;
+		}
+	}
+}
+
+.strip__ico {
+	svg {
+		@include transFill;
+		display: block;
+		fill: $clrPrimary;
+	}
+}

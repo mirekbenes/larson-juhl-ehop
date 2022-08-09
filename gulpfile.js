@@ -60,20 +60,19 @@ function html() {
 /////////////////////////////////////////*/
 function styles() {
     return gulp
-    .src("./source/styles/style.scss")
+    .src("./source/styles/czstore.scss")
     .pipe(plumber())
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(sass().on('error', sass.logError))
     .pipe(sass({ outputStyle: "expanded" }))
     .pipe(postcss([ autoprefixer("last 4 versions") , cssnano() ]))
-    .pipe(rename({ suffix: ".min" }))
     .pipe(gulp.dest("./dist/css/"))
     .pipe(browsersync.stream());
 }
 
 function stylesMaps() {
     return gulp
-        .src("./source/styles/style.scss")
+        .src("./source/styles/czstore.scss")
         .pipe(plumber())
         .pipe(sourcemaps.init({loadMaps: true}))
         .pipe(sass().on('error', sass.logError))

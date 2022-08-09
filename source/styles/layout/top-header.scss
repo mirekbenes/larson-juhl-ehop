@@ -1,0 +1,82 @@
+/* ==========================================================================
+    TOP HEADER
+   ========================================================================== */
+.top-header {
+	max-width: 1186px;
+
+	@include media-tablet {
+		flex-wrap: wrap;
+	}
+
+	@include media-desktop {
+		height: 58px;
+	}
+
+	&:after {
+		@include  media-tablet {
+			content: '';
+			display: block;
+			width: 100%;
+			height: 1px;
+			background: #e4e4e4;
+		}
+	}
+
+	.font-smaller {
+		@include media-desktop {
+			font-size: 15px;
+		}
+	}
+}
+
+.top-info.phone-icon {
+	&:before {
+		display: none;
+	}
+}
+
+.top-info a {
+	color: $clrPrimary;
+	text-decoration: underline;
+
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+}
+
+.top-hyp+.top-hyp,
+.action-links .hyp+.hyp,
+.back-wrapper+.breadcrumbs,
+.templates-action .hyp,
+.rating-reviews .hyp+.hyp,
+.selected-quantity .edit-selected,
+.hyp-clear-viewed,
+.product-tile .product-id+.stock-indication {
+	border-color: #e4e4e4;
+}
+
+.language {
+	border-right-color: #e4e4e4;
+}
+
+.top-hyp+.login {
+	border-left-color: #e4e4e4;
+}
+
+
+element.style {
+}
+.language.top-dropdown .summary {
+	padding-top: 4px;
+	left: -1px;
+	overflow-y: auto;
+	min-width: 127px;
+}
+header .top-dropdown:hover,
+header .top-dropdown.hover,
+header .top-dropdown .summary {
+	border-color: #fff;
+	box-shadow: 0 0 5px 0 rgba(0,0,0, 0.3);
+}

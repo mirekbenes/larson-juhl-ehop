@@ -1,0 +1,24 @@
+/* ==========================================================================
+    INSTA
+   ========================================================================== */
+.insta {
+	overflow: hidden;
+	max-width: 1186px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@include media-tablet {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	@include media-desktop {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+
+	h2 {
+		padding-bottom: 10px;
+		text-transform: none;
+	}
+}

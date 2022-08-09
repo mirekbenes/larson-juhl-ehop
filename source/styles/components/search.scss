@@ -1,0 +1,32 @@
+/* ==========================================================================
+    SEARCH
+   ========================================================================== */
+.search {
+	@include media-desktop {
+		width: 35%;
+	}
+
+	.ui-autocomplete {
+		background: $clrWhite;
+		border-color: #cac8d1;
+		border-radius: 10px;
+
+		li {
+			@include transLinks;
+
+			&:hover {
+				background-color: rgba(0,0,0, 0);
+			}
+		}
+
+		a {
+			@include transLinks;
+			text-decoration: none;
+
+			&:hover,
+			&.ui-state-active {
+				background-color: rgba(0,0,0, .1);
+			}
+		}
+	}
+}

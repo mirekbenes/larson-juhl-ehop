@@ -1,0 +1,29 @@
+/* ==========================================================================
+    TBX MAIN SEARCH
+   ========================================================================== */
+.search-wrapper {
+	padding-right: 0;
+
+	.tbx-main-search {
+		border-color: #cac8d1;
+		border-radius: 10px;
+
+		input {
+			padding-right: 40px;
+
+			&:focus {
+				background-color: #fff;
+			}
+		}
+	}
+
+	.btn-search {
+		background: transparent;
+
+		&:before {
+			width: 20px;
+			height: 19px;
+		}
+	}
+
+}

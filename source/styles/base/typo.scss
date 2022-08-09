@@ -1,0 +1,28 @@
+/* ==========================================================================
+    TYPOGRAPHY
+   ========================================================================== */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	text-decoration: underline;
+
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+	}
+
+}
+
+.top-header,
+.sitemap {
+    a {
+        text-decoration: none;
+    }
+}
+
+.hyp-print-preview {
+	display: none;
+}
