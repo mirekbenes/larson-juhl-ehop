@@ -1,0 +1,19 @@
+/* ==========================================================================
+    UOM PRICE LIST
+   ========================================================================== */
+.uom-price-list {
+	background: $footerBg;
+	color: $clrWhite;
+
+	b,
+	.uom-label,
+	.uom-value.lbl-price {
+		font-family: 'Noto Sans', sans-serif;
+		color: $clrWhite;
+	}
+}
+
+.uom-price-list-inner {
+	margin-bottom: 0;
+	background: $footerBg;
+}

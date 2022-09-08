@@ -39,3 +39,12 @@
 .facet {
 	text-align: left;
 }
+
+.border-simple-left,
+.l-products-item,
+.l-products-item:before,
+.l-products-item:after,
+.list-news li,
+.list-reviews li {
+	border-color: #e4e4e4;
+}
