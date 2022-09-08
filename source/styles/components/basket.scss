@@ -8,6 +8,10 @@
 		border-color: rgba(216, 216, 216, 0.6);
 	}
 
+	@include media-desktop {
+		margin-top: 7px;
+	}
+
 	.over-summary {
 		@include media-desktop {
 			height: 40px;

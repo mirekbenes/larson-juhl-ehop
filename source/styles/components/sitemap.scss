@@ -1,0 +1,21 @@
+/* ==========================================================================
+    SITEMAP
+   ========================================================================== */
+ul.sitemap-nav > li > a {
+	display: block;
+	width: 160px;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	padding-bottom: 12px;
+	pointer-events: none;
+	cursor: default;
+	text-transform: uppercase;
+	color: #354552 !important;
+}
+ul.sitemap-nav > li  {
+	width:160px;
+}
+
+.sitemap>span.font-h4 {
+	display: none;
+}

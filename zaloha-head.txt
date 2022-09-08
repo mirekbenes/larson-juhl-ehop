@@ -1,0 +1,79 @@
+<link href="/content/files/css/czstore.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans&subset=latin,latin-ext"/>
+<style>
+ body .site header .nav-lvl-3 .nav-item.nav-view-more {
+    display: block !important;
+}
+.flex-tile-block .text-block{
+   word-break: keep-all !important;
+}
+.team-content-block h3.member-name {
+    word-break: keep-all!important;
+}
+#cookie-bar{background:#111;height:auto;line-height:24px;color:#eee;text-align:center;padding:3px 0}
+#cookie-bar.fixed{position:fixed;top:0;left:0;width:100%}
+#cookie-bar.fixed.bottom{bottom:0;top:auto}
+#cookie-bar p{margin:0;padding:0}
+#cookie-bar a{color:#fff;display:inline-block;border-radius:3px;text-decoration:none;padding:0 6px;margin-left:8px}
+#cookie-bar .cb-enable{background:#070}
+#cookie-bar .cb-enable:hover{background:#090}
+#cookie-bar .cb-disable{background:#900}
+#cookie-bar .cb-disable:hover{background:#b00}
+#cookie-bar .cb-policy{background:#03b}
+#cookie-bar .cb-policy:hover{background:#05d}
+<-- a.btn-medium{display:none!important;} -->
+
+ul.sitemap-nav > li > a {
+    display: block;
+   width:160px;
+    line-height: 1.2em;
+    font-size: 1.2em;
+    padding-bottom: 12px;
+    pointer-events: none;
+    cursor: default;
+    text-transform: uppercase;
+    color: #354552 !important;
+}
+ul.sitemap-nav > li  {
+   width:160px;
+}
+.ul-socialfooter {
+    list-style-type: none;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 0;
+}
+.sitemap>span.font-h4{display:none}
+.tbx-email-newsletter{display:none}
+ul.newsletter-line>li>button{display:none}
+.suggest-img{width:80px;height:80px;}
+.suggest-img img{width:85px;height:85px;}
+
+.hyp-volume-prices.arrow-blue {
+font-size:1.6em !important;
+Color:RED !important;
+}
+
+/* Dálovo CSS */
+.ui-tablet .center > .columns-general.mrg30, .ui-desktop .center > .columns-general.mrg30 {text-align: center;}
+.btn {background-color: #a18839; border-color: #a18839;}
+.btn:hover {background-color: #27324c; border-color: #27324c;}
+.refined-search-btn-list.btn {background-color: hsla(0,0%,85%,.33); border-color: hsla(0,0%,85%,.33);}
+.customized-item-pane-header {background: #a18839;}
+.flow-img-tiles .column h2 {color:  #a18839;}
+footer .sitemap-nav>li .hyp {font-weight: 400;}
+.top-hyp+.top-hyp {display: none;}
+h1, h2, h3, h4 {text-transform: none;}
+h3.homepage {color: #aaa; font-size: 2.4em;}
+nav .hyp-top-lvl {text-transform: none;}
+body {font-family: 'Noto Sans', sans-serif;}
+.content-header {background: #f7f7f7; padding-bottom: 20px;}
+.filter-title:hover {color: #a18839; background: #f7f7f7; cursor: pointer;}
+.facet {text-align: left;}
+.page-search {display: none;}
+@media screen and (min-width: 1024px) {.basket {margin-top: 7px;}}
+
+
+</style>
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>

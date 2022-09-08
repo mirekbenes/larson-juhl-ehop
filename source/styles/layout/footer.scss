@@ -164,3 +164,14 @@ footer .newsletter {
 		}
 	}
 }
+
+.ul-socialfooter {
+	list-style-type: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 0;
+}
+
+footer .sitemap-nav>li .hyp {
+	font-weight: 400;
+}

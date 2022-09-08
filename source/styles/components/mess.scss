@@ -1,0 +1,41 @@
+/* ==========================================================================
+    MESS
+   ========================================================================== */
+.flex-tile-block .text-block {
+	word-break: keep-all!important;
+}
+
+.team-content-block h3.member-name {
+	word-break: keep-all!important;
+}
+
+.hyp-volume-prices.arrow-blue {
+	font-size: 1.6em!important;
+	Color: red!important;
+}
+
+.ui-tablet .center > .columns-general.mrg30, .ui-desktop .center > .columns-general.mrg30 {
+	text-align: center;
+}
+
+.customized-item-pane-header {
+	background: #a18839;
+}
+
+.flow-img-tiles .column h2 {
+	color: #a18839;
+}
+
+.top-hyp+.top-hyp {
+	display: none;
+}
+
+.filter-title:hover {
+	color: #a18839;
+	background: #f7f7f7;
+	cursor: pointer;
+}
+
+.facet {
+	text-align: left;
+}

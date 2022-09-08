@@ -80,3 +80,11 @@ header .top-dropdown .summary {
 	border-color: #fff;
 	box-shadow: 0 0 5px 0 rgba(0,0,0, 0.3);
 }
+
+header.sticky-mode .header-blocks-wrapper,
+header.sticky-mode nav {
+	@include media-desktop {
+		width: 100%;
+		max-width: 1180px;
+	}
+}

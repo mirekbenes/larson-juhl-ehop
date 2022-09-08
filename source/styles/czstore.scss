@@ -8,6 +8,7 @@
 
 // Base
 @import 'base/typo';
+@import 'base/btn';
 
 // Layout
 @import 'layout/center';
@@ -16,6 +17,7 @@
 @import 'layout/bottom-header';
 @import 'layout/sticky-header';
 @import 'layout/nav';
+@import 'layout/content-header';
 @import 'layout/footer';
 
 // UI Components
@@ -26,3 +28,9 @@
 @import 'components/image-slider';
 @import 'components/insta';
 @import 'components/strip';
+@import 'components/cookie-bar';
+@import 'components/sitemap';
+@import 'components/page-search';
+@import 'components/newsletter';
+@import 'components/suggest-img';
+@import 'components/mess';

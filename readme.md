@@ -8,7 +8,7 @@ Gulp ver 4
 <https://github.com/mirekbenes/vyvojove-prostredi-gulp4>
 
 ## Injektovani stylu a scriptu ##
-https://larson-juhl-europe-beta.sanastores.net/admin/sanatexts/injections
+<https://larson-juhl-europe-beta.sanastores.net/admin/sanatexts/injections>
 
 ## Frontend ##
-https://larson-juhl-europe-beta.sanastores.net/cs-cz/
+<https://larson-juhl-europe-beta.sanastores.net/cs-cz/>
